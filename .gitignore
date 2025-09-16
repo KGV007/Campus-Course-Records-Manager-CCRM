@@ -1,0 +1,21 @@
+# Compiled class files
+*.class
+
+# IDE specific files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# Build output
+bin/
+out/
+target/
+
+# Application generated data and backups
+app_data/
+app_backups/
+
+# Log files
+*.log
