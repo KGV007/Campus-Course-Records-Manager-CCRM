@@ -78,6 +78,7 @@ Source Code → javac (JDK) → Bytecode → JVM → Machine Code
 
 ## Enabling Assertions
 Run with: `java -ea MainClass` or `-enableassertions`
+
 ---
 #### Author : Kevin George Varghese
 #### Reg No: 24BCE10489
