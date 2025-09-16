@@ -78,5 +78,3 @@ Source Code → javac (JDK) → Bytecode → JVM → Machine Code
 
 ## Enabling Assertions
 Run with: `java -ea MainClass` or `-enableassertions`
-
-()[]
