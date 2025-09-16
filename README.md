@@ -42,17 +42,33 @@ Source Code → javac (JDK) → Bytecode → JVM → Machine Code
 
 ## Installation on Windows
 1. Download JDK from Oracle/OpenJDK website
+![Download JDK](./screenshots/JDKDownload.png)
 2. Run installer as Administrator
 3. Set JAVA_HOME environment variable to JDK path
+![Download JDK](./screenshots/SettingJAVAHOMEEnvironmentVariable.png)
 4. Add %JAVA_HOME%\bin to PATH
 5. Verify: `java -version` and `javac -version`
+![Download JDK](./screenshots/JDKInstallationVerification.png)
 
 ## Eclipse IDE Setup
 1. Download Eclipse IDE for Java Developers
-2. File → New → Java Project
-3. Configure Build Path for libraries
-4. Run → Run Configurations → Java Application
-5. Select Main class and Run
+![Download Eclipse1](./screenshots/EclipseInstallation1.png)
+![Download Eclipse2](./screenshots/EclipseInstallation2.png)
+![Download Eclipse3](./screenshots/EclipseInstallation3.png)
+![Download Eclipse4](./screenshots/EclipseInstallation4.png)
+![Download Eclipse5](./screenshots/EclipseInstallation5.png)
+3. File → New → Java Project
+![SetupProject1](./screenshots/ProjectSetup1.png)
+![SetupProject2](./screenshots/ProjectSetup2.png)
+![SetupProject3](./screenshots/ProjectSetup3.png)
+5. Configure Build Path for libraries
+![ConfigureBuildPath1](./screenshots/ProjectSetup4.png)
+![ConfigureBuildPath2](./screenshots/ProjectSetup5.png)
+![ConfigureBuildPath3](./screenshots/ProjectSetup6.png)
+![ConfigureBuildPath4](./screenshots/ProjectSetup7.png)
+![ConfigureBuildPath5](./screenshots/ProjectSetup8.png)
+7. Run → Run Configurations → Java Application
+8. Select Main class and Run
 
 ## Errors vs Exceptions
 - **Errors**: Serious problems that applications shouldn't catch (OutOfMemoryError, StackOverflowError)
